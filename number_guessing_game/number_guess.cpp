@@ -35,7 +35,7 @@ void checkGuess(int num, int random_num){
     else if(diff > 10 && diff < 30){
         cout<<"Your guess is near"<<endl;
     }
-    else if(diff > 3 && diff < 10){
+    else if(diff > 1 && diff < 10){
         cout<<"Your guess is very very near"<<endl;
     }
     else if(diff==0){
